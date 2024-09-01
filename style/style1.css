@@ -399,10 +399,6 @@ h3,
     padding: 13px 45px;
 }
 
-.header__nav-menu li :hover{
-    border-bottom: 3px solid rgb(13, 13, 139);
-}
-
 main{
     flex-grow: 1;
     flex: 1 0 auto;
@@ -990,9 +986,6 @@ p {
 .menu-container {
     display: flex;
     justify-content: space-evenly;
-    border-top: 1px solid #dee2e6;
-    border-bottom: 1px solid #dee2e6;
-    padding: 1rem 1.5rem;
 }
 
 nav ul.menu {
@@ -1024,7 +1017,7 @@ nav ul.submenu {
     top: 100%;
     left: 0;
     background-color: #e6f7ff;
-    color: #23398D;
+    color: var(--color-orig-blue);
     list-style-type: none;
     padding-left: 0;
     margin: 0;
@@ -1040,7 +1033,8 @@ nav ul.submenu li a {
 }
 
 nav ul.submenu li a:hover {
-    background-color: #d4f0ff;
+    background-color: var(--color-orig-blue);
+    color: white;
 }
 
 .content-section {

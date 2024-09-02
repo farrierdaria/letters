@@ -16,13 +16,11 @@ function BurgerClicked() {
 
 let alphabetArray = document.querySelectorAll('.alphabet-item');
 
-console.log(alphabetArray);
-
 alphabetArray.forEach(function(item, i) {
-
+    
     item.href = "index.html";
 
-    item.addEventListener('click', () => {
-
+    alphabetArray[i].addEventListener('click', () => {
+        
     })
 });
